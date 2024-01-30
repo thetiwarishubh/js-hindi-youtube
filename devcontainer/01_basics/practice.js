@@ -7,6 +7,17 @@
 // // let myAnotherDate = Date("15-06-2023")
 // // console.log(myAnotherDate.toString());
 
+const a = [56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66]
+
+// a.push(8)[The push() method of Array instances adds the specified elements to the end of an array and returns the new length of the array.]
+
+// a.pop()[The pop() method in JavaScript removes the last element from an array and returns that element. The pop() method changes the original array]
+
+/*a.shift()[The shift() method removes the first element from an array and returns it. The shift() method changes the original array. The shift() method returns the shifted element.
+The syntax for the shift() method is:]*/
+
+// a.unshift(1111)[The unshift() method adds new elements to the beginning of an array. The unshift() method overwrites the original array.]
+console.log(a);
 
 
 
@@ -75,8 +86,8 @@ console.log(Array.of(s1, s2, s3, s4, s5, s6, s7, s8, s9, ...s10, s11, s12, ...s1
 /*const practice = "Hello world"
 console.log(practice);*/
 
-const CarName = ["volvo", "audi", "BMW", "Ferrari", "Dodge", "Maruti Suzuki", "Tata", "Hyundai", "Honda Car", "Kia", "Ford", "Mercedes", "Lexus"]
-console.log(CarName.toString());
+// const CarName = ["volvo", "audi", "BMW", "Ferrari", "Dodge", "Maruti Suzuki", "Tata", "Hyundai", "Honda Car", "Kia", "Ford", "Mercedes", "Lexus"]
+// console.log(CarName.toString());
 
 
-console.log(Array.isArray(["s", "h", "u", "b", "h", "a", "m"]));
+// console.log(Array.isArray(["s", "h", "u", "b", "h", "a", "m"]));
