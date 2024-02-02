@@ -1,4 +1,4 @@
-constructor
+/*constructor
 singleton
 
 // const tinderUser = new Object(){singleton object}
@@ -52,3 +52,22 @@ console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser));
 
 console.log(tinderUser.hasOwnProperty('isLogged'));
+
+
+const course = {
+    coursename : "JS in Hindi",
+    Price : "999",
+    courseteacher : "Hitesh Choudhary"
+}
+
+// console.log(course.courseteacher);
+
+const {courseteacher: SAM} = course
+
+console.log(SAM);*/
+
+{
+    "name" : "shubham",
+    "coursename" : "JS in Hindi",
+    "price" : "free",
+}
