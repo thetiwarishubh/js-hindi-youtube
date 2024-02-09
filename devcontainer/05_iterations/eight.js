@@ -31,3 +31,5 @@ const shoppingCart = [
 const shop = shoppingCart.reduce( (acc, item) => acc + item.price, 0)
 
 console.log(shop);
+
+// oploaded
